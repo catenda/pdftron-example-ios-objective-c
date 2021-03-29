@@ -29,7 +29,7 @@
     navigationController.navigationBar.translucent = NO;
     navigationController.toolbar.translucent = NO;
     // Open a file from URL.
-    NSURL *fileURL = [[NSURL alloc] initWithString:@"https://pdftron.s3.amazonaws.com/downloads/pl/sample.pdf"];
+    NSURL *fileURL = [[NSURL alloc] initWithString:@"https://pdftron.s3.amazonaws.com/downloads/pdfref.pdf"];
     [documentController openDocumentWithURL:fileURL];
     // Show navigation (and document) controller.
     [self presentViewController:navigationController animated:YES completion:nil];
